@@ -1,0 +1,1 @@
+{"version":3,"sources":["file:///Users/akai/Data/cocos/TankWar/node_modules/axios/lib/env/data.js"],"names":["VERSION"],"mappings":";;;;;;;yBAAaA,O,GAAU,O","sourcesContent":["export const VERSION = \"1.7.7\";"]}

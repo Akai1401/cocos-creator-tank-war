@@ -1,0 +1,1 @@
+{"version":3,"sources":["file:///Users/akai/Data/cocos/TankWar/node_modules/axios/lib/platform/node/classes/FormData.js"],"names":["FormData"],"mappings":";;;;;;AAAOA,MAAAA,Q;;;yBAEQA,Q","sourcesContent":["import FormData from 'form-data';\n\nexport default FormData;\n"]}

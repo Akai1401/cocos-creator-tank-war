@@ -1,0 +1,12 @@
+{
+  "name": "TankWar",
+  "uuid": "c8efec9e-3c68-46e1-b917-0244c6865b50",
+  "creator": {
+    "version": "3.8.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "lodash": "^4.17.21",
+    "socket.io-client": "^4.8.0"
+  }
+}

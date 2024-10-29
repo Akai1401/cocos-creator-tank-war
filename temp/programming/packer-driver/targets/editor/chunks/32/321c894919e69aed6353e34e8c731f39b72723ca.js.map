@@ -1,0 +1,1 @@
+{"version":3,"sources":["file:///Users/akai/Data/cocos/TankWar/node_modules/axios/lib/platform/node/classes/URLSearchParams.js"],"names":["url","URLSearchParams"],"mappings":"AAAA;;;;;;;;AAEOA,MAAAA,G;;;yBACQA,GAAG,CAACC,e","sourcesContent":["'use strict';\n\nimport url from 'url';\nexport default url.URLSearchParams;\n"]}

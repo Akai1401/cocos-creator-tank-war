@@ -1,0 +1,166 @@
+10-29-2024 15:12:32-log: Cannot access game frame or container.
+10-29-2024 15:12:32-debug: asset-db:require-engine-code (612ms)
+10-29-2024 15:12:32-log: meshopt wasm decoder initialized
+10-29-2024 15:12:32-log: [bullet]:bullet wasm lib loaded.
+10-29-2024 15:12:32-log: [box2d]:box2d wasm lib loaded.
+10-29-2024 15:12:33-log: Cocos Creator v3.8.3
+10-29-2024 15:12:33-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:23.65MB, end 78.11MB, increase: 54.46MB
+10-29-2024 15:12:35-debug: [Assets Memory track]: asset-db-plugin-register: project start:78.74MB, end 170.92MB, increase: 92.17MB
+10-29-2024 15:12:35-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:78.11MB, end 170.93MB, increase: 92.82MB
+10-29-2024 15:12:35-debug: [Assets Memory track]: asset-db-plugin-register: builder start:80.20MB, end 167.77MB, increase: 87.56MB
+10-29-2024 15:12:33-debug: [Assets Memory track]: asset-db-plugin-register: programming start:78.86MB, end 80.19MB, increase: 1.33MB
+10-29-2024 15:12:35-debug: [Assets Memory track]: asset-db-plugin-register: engine-extends start:168.01MB, end 170.85MB, increase: 2.85MB
+10-29-2024 15:12:35-debug: run package(xiaomi-quick-game) handler(enable) start
+10-29-2024 15:12:35-debug: run package(xiaomi-quick-game) handler(enable) success!
+10-29-2024 15:12:35-debug: run package(cocos-service) handler(enable) success!
+10-29-2024 15:12:35-debug: run package(im-plugin) handler(enable) start
+10-29-2024 15:12:35-debug: run package(blank-template) handler(enable) success!
+10-29-2024 15:12:35-debug: run package(placeholder) handler(enable) start
+10-29-2024 15:12:35-debug: run package(placeholder) handler(enable) success!
+10-29-2024 15:12:35-debug: run package(blank-template) handler(enable) start
+10-29-2024 15:12:35-debug: run package(cocos-service) handler(enable) start
+10-29-2024 15:12:35-debug: run package(im-plugin) handler(enable) success!
+10-29-2024 15:12:35-debug: asset-db:worker-init: initPlugin (2328ms)
+10-29-2024 15:12:35-debug: [Assets Memory track]: asset-db:worker-init start:23.64MB, end 166.78MB, increase: 143.13MB
+10-29-2024 15:12:35-debug: Run asset db hook programming:beforePreStart ...
+10-29-2024 15:12:35-debug: Run asset db hook programming:beforePreStart success!
+10-29-2024 15:12:35-debug: Run asset db hook engine-extends:beforePreStart ...
+10-29-2024 15:12:35-debug: Run asset db hook engine-extends:beforePreStart success!
+10-29-2024 15:12:35-debug: asset-db:worker-init (3279ms)
+10-29-2024 15:12:35-debug: asset-db-hook-programming-beforePreStart (49ms)
+10-29-2024 15:12:35-debug: asset-db-hook-engine-extends-beforePreStart (49ms)
+10-29-2024 15:12:35-debug: Preimport db internal success
+10-29-2024 15:12:35-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/prefabbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:35-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/scriptbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:35-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/scenebackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:35-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audiobackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:35-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/imagesbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:35-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/Storebackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:35-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/Menu.tsbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:35-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/Store.tsbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:35-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/GameOver.tsbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:35-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/bullet.tsbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:35-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/playCtrl.tsbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:35-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/roomCtrl.tsbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:35-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/tank.tsbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:35-debug: Preimport db assets success
+10-29-2024 15:12:35-debug: Run asset db hook programming:afterPreStart ...
+10-29-2024 15:12:35-debug: starting packer-driver...
+10-29-2024 15:12:36-debug: initialize scripting environment...
+10-29-2024 15:12:36-debug: Set detail map pack:///resolution-detail-map.json: {}
+10-29-2024 15:12:36-debug: Run asset db hook engine-extends:afterPreStart ...
+10-29-2024 15:12:36-debug: [Assets Memory track]: asset-db:worker-init: preStart start:166.78MB, end 170.40MB, increase: 3.62MB
+10-29-2024 15:12:36-debug: Run asset db hook engine-extends:afterPreStart success!
+10-29-2024 15:12:36-debug: Run asset db hook programming:afterPreStart success!
+10-29-2024 15:12:36-debug: Start up the 'internal' database...
+10-29-2024 15:12:36-debug: asset-db-hook-programming-afterPreStart (745ms)
+10-29-2024 15:12:36-debug: asset-db:worker-effect-data-processing (174ms)
+10-29-2024 15:12:36-debug: asset-db-hook-engine-extends-afterPreStart (174ms)
+10-29-2024 15:12:36-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:166.82MB, end 181.80MB, increase: 14.98MB
+10-29-2024 15:12:36-debug: Start up the 'assets' database...
+10-29-2024 15:12:36-debug: asset-db:worker-startup-database[internal] (872ms)
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio/die.wavbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio/hit.wavbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio/menu.mp3background: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio/point.wavbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio/store.mp3background: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio/swoosh.wavbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio/wing.wavbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/PurpleMonster.pngbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/btn_play.pngbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/background.jpgbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/btn_play.png@6c48abackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/PurpleMonster.png@6c48abackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/key.pngbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/background.jpg@6c48abackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/PurpleMonster.png@f9941background: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/btn_play.png@f9941background: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/star.pngbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/background.jpg@f9941background: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/key.png@6c48abackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/prefab/Bullet.prefabbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/key.png@f9941background: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/star.png@6c48abackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/wall.jpegbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/star.png@f9941background: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/prefab/tankRoom.prefabbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene/gameOver.scenebackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene/menu.scenebackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/wall.jpeg@6c48abackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene/play.scenebackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/wall.jpeg@f9941background: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene/room.scenebackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene/store.scenebackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/Store/active-bg.pngbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/Store/bg.webpbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/Store/buy-200.webpbackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/Store/active-bg.png@6c48abackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/Store/active-bg.png@f9941background: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/Store/buy-200.webp@6c48abackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/Store/bg.webp@6c48abackground: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/Store/buy-200.webp@f9941background: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: %cImport%c: /Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/Store/bg.webp@f9941background: #aaff85; color: #000;color: #000;
+10-29-2024 15:12:36-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:168.90MB, end 180.93MB, increase: 12.03MB
+10-29-2024 15:12:36-debug: lazy register asset handler directory
+10-29-2024 15:12:36-debug: [Assets Memory track]: asset-db:worker-init: startup start:170.41MB, end 180.93MB, increase: 10.53MB
+10-29-2024 15:12:36-debug: lazy register asset handler json
+10-29-2024 15:12:36-debug: lazy register asset handler dragonbones
+10-29-2024 15:12:36-debug: lazy register asset handler dragonbones-atlas
+10-29-2024 15:12:36-debug: lazy register asset handler spine-data
+10-29-2024 15:12:36-debug: lazy register asset handler javascript
+10-29-2024 15:12:36-debug: lazy register asset handler typescript
+10-29-2024 15:12:36-debug: lazy register asset handler scene
+10-29-2024 15:12:36-debug: lazy register asset handler prefab
+10-29-2024 15:12:36-debug: lazy register asset handler *
+10-29-2024 15:12:36-debug: lazy register asset handler tiled-map
+10-29-2024 15:12:36-debug: lazy register asset handler buffer
+10-29-2024 15:12:36-debug: lazy register asset handler image
+10-29-2024 15:12:36-debug: lazy register asset handler text
+10-29-2024 15:12:36-debug: lazy register asset handler texture
+10-29-2024 15:12:36-debug: lazy register asset handler sign-image
+10-29-2024 15:12:36-debug: lazy register asset handler texture-cube
+10-29-2024 15:12:36-debug: lazy register asset handler erp-texture-cube
+10-29-2024 15:12:36-debug: lazy register asset handler render-texture
+10-29-2024 15:12:36-debug: lazy register asset handler texture-cube-face
+10-29-2024 15:12:36-debug: lazy register asset handler rt-sprite-frame
+10-29-2024 15:12:36-debug: lazy register asset handler gltf
+10-29-2024 15:12:36-debug: lazy register asset handler alpha-image
+10-29-2024 15:12:36-debug: lazy register asset handler gltf-animation
+10-29-2024 15:12:36-debug: lazy register asset handler gltf-skeleton
+10-29-2024 15:12:36-debug: lazy register asset handler gltf-material
+10-29-2024 15:12:36-debug: lazy register asset handler gltf-scene
+10-29-2024 15:12:36-debug: lazy register asset handler gltf-embeded-image
+10-29-2024 15:12:36-debug: lazy register asset handler material
+10-29-2024 15:12:36-debug: lazy register asset handler physics-material
+10-29-2024 15:12:36-debug: lazy register asset handler effect
+10-29-2024 15:12:36-debug: lazy register asset handler gltf-mesh
+10-29-2024 15:12:36-debug: lazy register asset handler fbx
+10-29-2024 15:12:36-debug: lazy register asset handler audio-clip
+10-29-2024 15:12:36-debug: lazy register asset handler animation-clip
+10-29-2024 15:12:36-debug: lazy register asset handler animation-graph-variant
+10-29-2024 15:12:36-debug: lazy register asset handler animation-mask
+10-29-2024 15:12:36-debug: lazy register asset handler animation-graph
+10-29-2024 15:12:36-debug: lazy register asset handler ttf-font
+10-29-2024 15:12:36-debug: lazy register asset handler bitmap-font
+10-29-2024 15:12:36-debug: lazy register asset handler particle
+10-29-2024 15:12:36-debug: lazy register asset handler terrain
+10-29-2024 15:12:36-debug: lazy register asset handler sprite-atlas
+10-29-2024 15:12:36-debug: lazy register asset handler label-atlas
+10-29-2024 15:12:36-debug: lazy register asset handler render-pipeline
+10-29-2024 15:12:36-debug: lazy register asset handler render-stage
+10-29-2024 15:12:36-debug: lazy register asset handler render-flow
+10-29-2024 15:12:36-debug: lazy register asset handler instantiation-material
+10-29-2024 15:12:36-debug: lazy register asset handler instantiation-mesh
+10-29-2024 15:12:36-debug: lazy register asset handler instantiation-skeleton
+10-29-2024 15:12:36-debug: lazy register asset handler instantiation-animation
+10-29-2024 15:12:36-debug: lazy register asset handler video-clip
+10-29-2024 15:12:36-debug: lazy register asset handler sprite-frame
+10-29-2024 15:12:36-debug: lazy register asset handler auto-atlas
+10-29-2024 15:12:36-debug: lazy register asset handler effect-header
+10-29-2024 15:12:36-debug: asset-db:worker-startup-database[assets] (907ms)
+10-29-2024 15:12:36-debug: asset-db:start-database (980ms)
+10-29-2024 15:12:36-debug: asset-db:ready (6011ms)
+10-29-2024 15:12:36-debug: init worker message success
+10-29-2024 15:12:36-debug: programming:execute-script (3ms)
+10-29-2024 15:12:36-debug: [Build Memory track]: builder:worker-init start:183.99MB, end 195.08MB, increase: 11.09MB
+10-29-2024 15:12:36-debug: builder:worker-init (284ms)

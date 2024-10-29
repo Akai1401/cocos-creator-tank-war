@@ -1,0 +1,591 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "/Users/akai/Data/cocos/TankWar/assets/images.meta": {
+      "time": 1729741128749.3545
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/images": {
+      "time": 1730133074411.662,
+      "uuid": "a658d650-3f87-4e95-aba1-f1727ee4d60e"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/images/background.jpg.meta": {
+      "time": 1729741130828.6516
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/images/background.jpg": {
+      "time": 1729741130826.2332,
+      "uuid": "0af33f8b-4512-452f-8ffa-e0175cee767c"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/script.meta": {
+      "time": 1729741140178.3071
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/script": {
+      "time": 1730133678523.5173,
+      "uuid": "c7d1e215-5cde-4fdf-94da-eaa4565c5f44"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/scene.meta": {
+      "time": 1729741184434.7312
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/scene": {
+      "time": 1730120868334.0344,
+      "uuid": "2b1be193-6b0e-4fc3-a5c4-ba4a4fc37b57"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/images/PurpleMonster.png.meta": {
+      "time": 1729741227434.916
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/images/PurpleMonster.png": {
+      "time": 1729741227432.6287,
+      "uuid": "c6b5fd13-6a7f-4187-8716-1189e5d13c27"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/images/star.png.meta": {
+      "time": 1729741262089.3384
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/images/star.png": {
+      "time": 1729741262086.625,
+      "uuid": "80c7b1e7-1df7-4fc7-94e5-c530738420ed"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/images/btn_play.png.meta": {
+      "time": 1729741262109.978
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/images/btn_play.png": {
+      "time": 1729741262108.9744,
+      "uuid": "2e632b17-220c-41b7-8b8a-f450a260eea6"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/prefab.meta": {
+      "time": 1729741508104.6243
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/prefab": {
+      "time": 1729745505113.3171,
+      "uuid": "087b66d5-654e-4e22-baa5-f36670ed3657"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/prefab/Bullet.prefab.meta": {
+      "time": 1729741509178.9258
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/prefab/Bullet.prefab": {
+      "time": 1730126519745.505,
+      "uuid": "6e67a9bd-6f92-47b0-8ef3-751d843377dc"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/script/roomCtrl.ts.meta": {
+      "time": 1729742860311.7727
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/script/roomCtrl.ts": {
+      "time": 1730115079455.8464,
+      "uuid": "6f8387bf-3160-40c2-b12f-16a547c2d410"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/prefab/tankRoom.prefab.meta": {
+      "time": 1729743070138.8132
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/prefab/tankRoom.prefab": {
+      "time": 1730131515471.286,
+      "uuid": "bc46aefb-1a38-4990-8fe7-69819b474cc7"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/scene/play.scene.meta": {
+      "time": 1729742764521.542
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/scene/play.scene": {
+      "time": 1730136002864.9734,
+      "uuid": "30ee7ad3-8950-417e-b1a5-5b09350ba30c"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/scene/room.scene.meta": {
+      "time": 1729741194439.697
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/scene/room.scene": {
+      "time": 1730132432959.1917,
+      "uuid": "4cd6cb70-53fb-4e62-ad36-c2ef7f28b844"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/script/playCtrl.ts.meta": {
+      "time": 1729744786631.1235
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/script/playCtrl.ts": {
+      "time": 1730135402509.5537,
+      "uuid": "5973e634-145c-42b9-baa6-d6cca4bf0a51"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/script/bullet.ts.meta": {
+      "time": 1729741559450.8582
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/script/bullet.ts": {
+      "time": 1729744860896.0173,
+      "uuid": "d1a24626-b77c-42e1-8854-01eababc446d"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/script/tank.ts.meta": {
+      "time": 1729741294524.91
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/script/tank.ts": {
+      "time": 1730135943242.8992,
+      "uuid": "a0690b2d-dc41-4bfa-8f5e-d490a8e18e0e"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/images/wall.jpeg.meta": {
+      "time": 1729847816982.8103
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/images/wall.jpeg": {
+      "time": 1729847812836.3267,
+      "uuid": "7bdff9dc-c5b7-41ff-bdda-716035859bbd"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/scene/gameOver.scene.meta": {
+      "time": 1729855840111.777
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/scene/gameOver.scene": {
+      "time": 1730132383192.204,
+      "uuid": "97f70b3e-87bb-4b25-be90-ebe22ce7c025"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/scene/menu.scene.meta": {
+      "time": 1730087118265.981
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/scene/menu.scene": {
+      "time": 1730132367960.587,
+      "uuid": "b8a0dfa3-da0c-479e-9693-e35545b2d983"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/script/Menu.ts.meta": {
+      "time": 1730087196968.3545
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/script/Menu.ts": {
+      "time": 1730188584548.197,
+      "uuid": "54c04689-95c9-47d8-ad87-9a133b912854"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/Audio.meta": {
+      "time": 1730087262014.026
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/Audio/die.wav.meta": {
+      "time": 1730087262010.8992
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/Audio/hit.wav.meta": {
+      "time": 1730087262008.7869
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/Audio/menu.mp3.meta": {
+      "time": 1730087262005.7097
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/Audio/point.wav.meta": {
+      "time": 1730087262003.9016
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/Audio/store.mp3.meta": {
+      "time": 1730087261999.833
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/Audio/swoosh.wav.meta": {
+      "time": 1730087261996.6294
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/Audio/wing.wav.meta": {
+      "time": 1730087261994.0361
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/Audio": {
+      "time": 1730087262011.1816,
+      "uuid": "da8d3f5f-8176-4436-9f9d-0414f886b4e5"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/Audio/store.mp3": {
+      "time": 1730087262002.937,
+      "uuid": "1e4321f8-4f82-4262-b8d7-d0e7abc45caa"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/Audio/menu.mp3": {
+      "time": 1730087262007.4407,
+      "uuid": "30a3a4d1-7752-4212-b1a5-63dfe3cebf3a"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/Audio/die.wav": {
+      "time": 1730087262012.1863,
+      "uuid": "3c0ed939-cede-4fd8-a38e-17f39f6febaa"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/Audio/hit.wav": {
+      "time": 1730087262010.1333,
+      "uuid": "85759461-b5b7-4ffe-819b-ac85761a8374"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/Audio/point.wav": {
+      "time": 1730087262005.108,
+      "uuid": "bb0b2948-af54-436a-a998-cd006fc2b920"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/Audio/wing.wav": {
+      "time": 1730087261995.4084,
+      "uuid": "c984f411-84ed-4093-bfc2-602657405d3f"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/Audio/swoosh.wav": {
+      "time": 1730087261998.9456,
+      "uuid": "8bfb43ad-56e6-4955-a00c-56f13a7e9d08"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/script/GameOver.ts.meta": {
+      "time": 1730087761438.8242
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/script/GameOver.ts": {
+      "time": 1730087758824.816,
+      "uuid": "360d9f95-8cee-4253-81d8-19bcd8234332"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/scene/store.scene.meta": {
+      "time": 1730120868334.1016
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/scene/store.scene": {
+      "time": 1730121183397.0217,
+      "uuid": "e1f57ca3-27e0-44a6-b8f2-45ce684d0e6c"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/script/Store.ts.meta": {
+      "time": 1730120910848.0483
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/script/Store.ts": {
+      "time": 1730120910846.1616,
+      "uuid": "53fa9369-877e-4846-8cd5-1e0ffba1bc05"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/images/Store.meta": {
+      "time": 1730120976501.8203
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/images/Store/active-bg.png.meta": {
+      "time": 1730120976499.481
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/images/Store/bg.webp.meta": {
+      "time": 1730120976497.2136
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/images/Store/buy-200.webp.meta": {
+      "time": 1730120976495.422
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/images/Store": {
+      "time": 1730120976499.9526,
+      "uuid": "75d6e5ea-d50e-428f-820d-53863036df33"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/images/Store/active-bg.png": {
+      "time": 1730120976500.46,
+      "uuid": "5f87f831-5946-4353-a2ad-1c478770f270"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/images/Store/buy-200.webp": {
+      "time": 1730120976496.402,
+      "uuid": "3bd8b8dd-d421-4908-ae1a-b40e952c24b6"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/images/Store/bg.webp": {
+      "time": 1730120976498.4568,
+      "uuid": "f7abb81e-3d98-4638-b33f-7248aa196adb"
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/images/key.png.meta": {
+      "time": 1730133074426.868
+    },
+    "/Users/akai/Data/cocos/TankWar/assets/images/key.png": {
+      "time": 1730133070962.4438,
+      "uuid": "3a613e5e-7ccc-4b7d-9ba4-fc644d8df3b0"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio": {
+      "time": 1730087262011.1816,
+      "uuid": "da8d3f5f-8176-4436-9f9d-0414f886b4e5"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images": {
+      "time": 1730133074411.662,
+      "uuid": "a658d650-3f87-4e95-aba1-f1727ee4d60e"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/prefab": {
+      "time": 1729745505113.3171,
+      "uuid": "087b66d5-654e-4e22-baa5-f36670ed3657"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene": {
+      "time": 1730120868334.0347,
+      "uuid": "2b1be193-6b0e-4fc3-a5c4-ba4a4fc37b57"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script": {
+      "time": 1730133678523.5176,
+      "uuid": "c7d1e215-5cde-4fdf-94da-eaa4565c5f44"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/Store": {
+      "time": 1730120976499.9526,
+      "uuid": "75d6e5ea-d50e-428f-820d-53863036df33"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/GameOver.ts": {
+      "time": 1730087758824.816,
+      "uuid": "360d9f95-8cee-4253-81d8-19bcd8234332"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/Menu.ts": {
+      "time": 1730188584548.197,
+      "uuid": "54c04689-95c9-47d8-ad87-9a133b912854"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/Store.ts": {
+      "time": 1730120910846.1616,
+      "uuid": "53fa9369-877e-4846-8cd5-1e0ffba1bc05"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/bullet.ts": {
+      "time": 1729744860896.0173,
+      "uuid": "d1a24626-b77c-42e1-8854-01eababc446d"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/playCtrl.ts": {
+      "time": 1730135402509.5537,
+      "uuid": "5973e634-145c-42b9-baa6-d6cca4bf0a51"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/roomCtrl.ts": {
+      "time": 1730115079455.8462,
+      "uuid": "6f8387bf-3160-40c2-b12f-16a547c2d410"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/tank.ts": {
+      "time": 1730135943242.8992,
+      "uuid": "a0690b2d-dc41-4bfa-8f5e-d490a8e18e0e"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio.meta": {
+      "time": 1730087262014.026
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images.meta": {
+      "time": 1729741128749.3545
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/prefab.meta": {
+      "time": 1729741508104.6243
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene.meta": {
+      "time": 1729741184434.7312
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script.meta": {
+      "time": 1729741140178.3071
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/Store.meta": {
+      "time": 1730120976501.8203
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/GameOver.ts.meta": {
+      "time": 1730087761438.8242
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/Menu.ts.meta": {
+      "time": 1730087196968.3545
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/Store.ts.meta": {
+      "time": 1730120910848.0483
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/bullet.ts.meta": {
+      "time": 1729741559450.8582
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/playCtrl.ts.meta": {
+      "time": 1729744786631.1235
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/roomCtrl.ts.meta": {
+      "time": 1729742860311.7727
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/tank.ts.meta": {
+      "time": 1729741294524.91
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio/die.wav": {
+      "time": 1730087262012.1863,
+      "uuid": "3c0ed939-cede-4fd8-a38e-17f39f6febaa"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio/hit.wav": {
+      "time": 1730087262010.1333,
+      "uuid": "85759461-b5b7-4ffe-819b-ac85761a8374"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio/menu.mp3": {
+      "time": 1730087262007.4407,
+      "uuid": "30a3a4d1-7752-4212-b1a5-63dfe3cebf3a"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio/point.wav": {
+      "time": 1730087262005.108,
+      "uuid": "bb0b2948-af54-436a-a998-cd006fc2b920"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio/store.mp3": {
+      "time": 1730087262002.937,
+      "uuid": "1e4321f8-4f82-4262-b8d7-d0e7abc45caa"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio/swoosh.wav": {
+      "time": 1730087261998.9456,
+      "uuid": "8bfb43ad-56e6-4955-a00c-56f13a7e9d08"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio/wing.wav": {
+      "time": 1730087261995.4082,
+      "uuid": "c984f411-84ed-4093-bfc2-602657405d3f"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/PurpleMonster.png": {
+      "time": 1729741227432.6287,
+      "uuid": "c6b5fd13-6a7f-4187-8716-1189e5d13c27"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/background.jpg": {
+      "time": 1729741130826.233,
+      "uuid": "0af33f8b-4512-452f-8ffa-e0175cee767c"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/btn_play.png": {
+      "time": 1729741262108.9744,
+      "uuid": "2e632b17-220c-41b7-8b8a-f450a260eea6"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/key.png": {
+      "time": 1730133070962.4438,
+      "uuid": "3a613e5e-7ccc-4b7d-9ba4-fc644d8df3b0"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/star.png": {
+      "time": 1729741262086.6248,
+      "uuid": "80c7b1e7-1df7-4fc7-94e5-c530738420ed"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/wall.jpeg": {
+      "time": 1729847812836.3267,
+      "uuid": "7bdff9dc-c5b7-41ff-bdda-716035859bbd"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/prefab/Bullet.prefab": {
+      "time": 1730126519745.505,
+      "uuid": "6e67a9bd-6f92-47b0-8ef3-751d843377dc"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/prefab/tankRoom.prefab": {
+      "time": 1730131515471.286,
+      "uuid": "bc46aefb-1a38-4990-8fe7-69819b474cc7"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene/gameOver.scene": {
+      "time": 1730132383192.204,
+      "uuid": "97f70b3e-87bb-4b25-be90-ebe22ce7c025"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene/menu.scene": {
+      "time": 1730132367960.587,
+      "uuid": "b8a0dfa3-da0c-479e-9693-e35545b2d983"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene/play.scene": {
+      "time": 1730136002864.9734,
+      "uuid": "30ee7ad3-8950-417e-b1a5-5b09350ba30c"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene/room.scene": {
+      "time": 1730132432959.1917,
+      "uuid": "4cd6cb70-53fb-4e62-ad36-c2ef7f28b844"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene/store.scene": {
+      "time": 1730121183397.0217,
+      "uuid": "e1f57ca3-27e0-44a6-b8f2-45ce684d0e6c"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/Store/active-bg.png": {
+      "time": 1730120976500.46,
+      "uuid": "5f87f831-5946-4353-a2ad-1c478770f270"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/Store/bg.webp": {
+      "time": 1730120976498.4568,
+      "uuid": "f7abb81e-3d98-4638-b33f-7248aa196adb"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/Store/buy-200.webp": {
+      "time": 1730120976496.402,
+      "uuid": "3bd8b8dd-d421-4908-ae1a-b40e952c24b6"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio/store.mp3.meta": {
+      "time": 1730087261999.833
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio/menu.mp3.meta": {
+      "time": 1730087262005.7097
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio/hit.wav.meta": {
+      "time": 1730087262008.7869
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio/die.wav.meta": {
+      "time": 1730087262010.8992
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio/point.wav.meta": {
+      "time": 1730087262003.9016
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio/wing.wav.meta": {
+      "time": 1730087261994.0361
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/Audio/swoosh.wav.meta": {
+      "time": 1730087261996.6294
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/btn_play.png.meta": {
+      "time": 1729741262109.978
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/PurpleMonster.png.meta": {
+      "time": 1729741227434.916
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/prefab/Bullet.prefab.meta": {
+      "time": 1729741509178.9258
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/key.png.meta": {
+      "time": 1730133074426.868
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/background.jpg.meta": {
+      "time": 1729741130828.6516
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/prefab/tankRoom.prefab.meta": {
+      "time": 1729743070138.8132
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene/gameOver.scene.meta": {
+      "time": 1729855840111.777
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene/menu.scene.meta": {
+      "time": 1730087118265.981
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/star.png.meta": {
+      "time": 1729741262089.3384
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene/play.scene.meta": {
+      "time": 1729742764521.542
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene/room.scene.meta": {
+      "time": 1729741194439.6973
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene/store.scene.meta": {
+      "time": 1730120868334.1016
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/wall.jpeg.meta": {
+      "time": 1729847816982.8103
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/Store/active-bg.png.meta": {
+      "time": 1730120976499.481
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/Store/buy-200.webp.meta": {
+      "time": 1730120976495.422
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/Store/bg.webp.meta": {
+      "time": 1730120976497.2136
+    }
+  },
+  "missing": {
+    "9935ebc9-618f-48ae-a109-1b494f31d494": {
+      "path": "/Users/akai/Data/cocos/TankWar/assets/script/bulletCtrl",
+      "time": 1729741521864.3962,
+      "removeTime": 1729741550112
+    },
+    "30ee7ad3-8950-417e-b1a5-5b09350ba30c": {
+      "path": "/Users/akai/Data/cocos/TankWar/assets/scene/room.scene",
+      "time": 1729742776172.4333,
+      "removeTime": 1729744204234
+    },
+    "4cd6cb70-53fb-4e62-ad36-c2ef7f28b844": {
+      "path": "/Users/akai/Data/cocos/TankWar/assets/scene/plays.scene",
+      "time": 1729744200007.5125,
+      "removeTime": 1729744208949
+    },
+    "93b9556e-2e8f-4ec0-8130-76ef027ef861": {
+      "path": "/Users/akai/Data/cocos/TankWar/assets/script/playCtrl.ts",
+      "time": 1729744461931.1704,
+      "removeTime": 1729744574627
+    },
+    "d1a24626-b77c-42e1-8854-01eababc446d": {
+      "path": "/Users/akai/Data/cocos/TankWar/assets/script/bulletCtrl.ts",
+      "time": 1729742360086.7432,
+      "removeTime": 1729744802872
+    },
+    "a0690b2d-dc41-4bfa-8f5e-d490a8e18e0e": {
+      "path": "/Users/akai/Data/cocos/TankWar/assets/script/tankCtrl.ts",
+      "time": 1729744769669.2437,
+      "removeTime": 1729744807757
+    },
+    "8fa0b8d1-ea84-43f9-ad15-8c2daea4517d": {
+      "path": "/Users/akai/Data/cocos/TankWar/assets/script/tankCtrl.ts",
+      "time": 1729744842810.104,
+      "removeTime": 1729745008649
+    },
+    "8c538cfb-739d-4bd9-ae70-32270935c097": {
+      "path": "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab",
+      "time": 1729745435961.1326,
+      "removeTime": 1729745505114
+    },
+    "99aff5b2-a561-4391-ba44-41b9db53b88a": {
+      "path": "/Users/akai/Data/cocos/TankWar/assets/script/tankRoom.ts",
+      "time": 1729840286775.1482,
+      "removeTime": 1729840361456
+    },
+    "7bdff9dc-c5b7-41ff-bdda-716035859bbd": {
+      "path": "/Users/akai/Data/cocos/TankWar/assets/images/download.jpeg",
+      "time": 1729847812836.3267,
+      "removeTime": 1729847816973
+    },
+    "917e3eb1-7230-4c55-b4a5-402b94096b73": {
+      "path": "/Users/akai/Data/cocos/TankWar/assets/script/gameOver.ts",
+      "time": 1730087669439.2964,
+      "removeTime": 1730087761437
+    },
+    "e671eea6-16d1-4ee6-bccb-1b354067315b": {
+      "path": "/Users/akai/Data/cocos/TankWar/assets/images/key.jpg",
+      "time": 1730132912083.3547,
+      "removeTime": 1730133033126
+    },
+    "256bfd92-06dd-4401-bb50-6845d046e32e": {
+      "path": "/Users/akai/Data/cocos/TankWar/assets/images/key.jpg",
+      "time": 1730133026764.2744,
+      "removeTime": 1730133065331
+    },
+    "3a613e5e-7ccc-4b7d-9ba4-fc644d8df3b0": {
+      "path": "/Users/akai/Data/cocos/TankWar/assets/images/e6a41763a00fbb84bdac9dcb43951c7c-removebg-preview.png",
+      "time": 1730133070962.4438,
+      "removeTime": 1730133074412
+    },
+    "fc268087-c7ff-4100-bd6d-aa1d4fe47b67": {
+      "path": "/Users/akai/Data/cocos/TankWar/assets/script/folder",
+      "time": 1730133395155.6194,
+      "removeTime": 1730133397472
+    },
+    "ea07d149-5965-4dd8-90b3-1c5d0d6a331e": {
+      "path": "/Users/akai/Data/cocos/TankWar/assets/script/Controller.ts",
+      "time": 1730133408110.2754,
+      "removeTime": 1730133678523
+    }
+  }
+}

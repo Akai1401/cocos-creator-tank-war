@@ -1,0 +1,18 @@
+{
+  "__version__": "1.0.6",
+  "physics": {
+    "allowSleep": true,
+    "gravity": {
+      "y": -10
+    },
+    "fixedTimeStep": 0.01667,
+    "maxSubSteps": 1,
+    "autoSimulation": true
+  },
+  "general": {
+    "designResolution": {
+      "width": 640,
+      "height": 960
+    }
+  }
+}

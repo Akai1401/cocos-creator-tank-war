@@ -1,0 +1,90 @@
+{
+  "__version__": "1.3.8",
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "startScene": "b8a0dfa3-da0c-479e-9693-e35545b2d983"
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1730186252872": {
+        "type": "build",
+        "id": "1730186252872",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "10-29-2024 14:56:44 build success in 4 s!",
+        "detailMessage": "Run build task(build-script) in child, see: chrome://inspect/#devices\r",
+        "options": {
+          "name": "TankWar",
+          "server": "",
+          "platform": "web-desktop",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "on",
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            }
+          },
+          "nativeCodeBundleMode": "both",
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "b8a0dfa3-da0c-479e-9693-e35545b2d983",
+          "outputName": "web-desktop",
+          "taskName": "web-desktop",
+          "scenes": [
+            {
+              "url": "db://assets/scene/gameOver.scene",
+              "uuid": "97f70b3e-87bb-4b25-be90-ebe22ce7c025"
+            },
+            {
+              "url": "db://assets/scene/menu.scene",
+              "uuid": "b8a0dfa3-da0c-479e-9693-e35545b2d983"
+            },
+            {
+              "url": "db://assets/scene/play.scene",
+              "uuid": "30ee7ad3-8950-417e-b1a5-5b09350ba30c"
+            },
+            {
+              "url": "db://assets/scene/room.scene",
+              "uuid": "4cd6cb70-53fb-4e62-ad36-c2ef7f28b844"
+            },
+            {
+              "url": "db://assets/scene/store.scene",
+              "uuid": "e1f57ca3-27e0-44a6-b8f2-45ce684d0e6c"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "bundle",
+          "logDest": "project://temp/builder/log/web-desktop10-29-2024 14-17.log"
+        },
+        "time": "10-29-2024 14:56:39",
+        "dirty": false
+      }
+    }
+  }
+}
