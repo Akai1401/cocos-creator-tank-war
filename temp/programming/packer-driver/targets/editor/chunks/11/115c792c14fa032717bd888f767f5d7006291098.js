@@ -1,7 +1,7 @@
-System.register(["cc"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Button, Component, director, instantiate, Label, Node, Prefab, Vec3, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, roomCtrl;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Button, Component, director, instantiate, Label, Node, Prefab, Sprite, Vec3, colorMapping, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, roomCtrl;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -9,8 +9,14 @@ System.register(["cc"], function (_export, _context) {
 
   function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'transform-class-properties is enabled and runs after the decorators transform.'); }
 
+  function _reportPossibleCrUseOfcolorMapping(extras) {
+    _reporterNs.report("colorMapping", "./utils", _context.meta, extras);
+  }
+
   return {
-    setters: [function (_cc) {
+    setters: [function (_unresolved_) {
+      _reporterNs = _unresolved_;
+    }, function (_cc) {
       _cclegacy = _cc.cclegacy;
       __checkObsolete__ = _cc.__checkObsolete__;
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
@@ -22,14 +28,17 @@ System.register(["cc"], function (_export, _context) {
       Label = _cc.Label;
       Node = _cc.Node;
       Prefab = _cc.Prefab;
+      Sprite = _cc.Sprite;
       Vec3 = _cc.Vec3;
+    }, function (_unresolved_2) {
+      colorMapping = _unresolved_2.colorMapping;
     }],
     execute: function () {
       _crd = true;
 
       _cclegacy._RF.push({}, "6f838e/MWBAwrEvFqVHwtQQ", "roomCtrl", undefined);
 
-      __checkObsolete__(['_decorator', 'Button', 'Component', 'director', 'instantiate', 'Label', 'Node', 'Prefab', 'Vec3']);
+      __checkObsolete__(['_decorator', 'Button', 'Component', 'director', 'instantiate', 'Label', 'Node', 'Prefab', 'Sprite', 'Vec3']);
 
       ({
         ccclass,
@@ -114,6 +123,15 @@ System.register(["cc"], function (_export, _context) {
             labelNode.setPosition(new Vec3(0, 70, 0));
             userNode.addChild(labelNode);
             userNode.name = item == null ? void 0 : item.id;
+
+            if ((_crd && colorMapping === void 0 ? (_reportPossibleCrUseOfcolorMapping({
+              error: Error()
+            }), colorMapping) : colorMapping)[item.color]) {
+              userNode.getChildByName("image").getComponent(Sprite).color = (_crd && colorMapping === void 0 ? (_reportPossibleCrUseOfcolorMapping({
+                error: Error()
+              }), colorMapping) : colorMapping)[item.color];
+            }
+
             const userCount = this.userListContainer.children.length;
             const row = Math.floor(userCount / 4);
             const col = userCount % 4;

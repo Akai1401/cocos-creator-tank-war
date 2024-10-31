@@ -105,7 +105,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 320,
-      "y": 479.99999999999994,
+      "y": 480.00000000000006,
       "z": 0
     },
     "_lrot": {
@@ -190,7 +190,7 @@
     "_priority": 0,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 479.99999999999994,
+    "_orthoHeight": 480,
     "_near": 0,
     "_far": 1000,
     "_color": {
@@ -391,7 +391,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "PurpleMonster",
+    "_name": "image",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -1262,7 +1262,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 99.9939241856562,
+      "width": 100,
       "height": 63
     },
     "_anchorPoint": {
@@ -1295,7 +1295,7 @@
     "_string": "Fire!",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 68.85416666666667,
+    "_actualFontSize": 50,
     "_fontSize": 50,
     "_fontFamily": "Arial",
     "_lineHeight": 50,
@@ -1603,7 +1603,7 @@
         "__id__": 41
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 44
@@ -1619,7 +1619,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": -2.739,
-      "y": -239.614,
+      "y": 191.299,
       "z": 0
     },
     "_lrot": {
@@ -1666,8 +1666,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
+      "x": 6.629,
+      "y": 18.562,
       "z": 0
     },
     "_lrot": {
@@ -1845,7 +1845,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 640,
-      "height": 959.9999999999998
+      "height": 960
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",

@@ -7,8 +7,11 @@ import {
   Label,
   Node,
   Prefab,
+  Sprite,
   Vec3,
 } from "cc";
+import { colorMapping } from "./utils";
+import { getMyItem } from "./apis";
 const { ccclass, property } = _decorator;
 
 @ccclass("roomCtrl")
@@ -87,6 +90,11 @@ export class roomCtrl extends Component {
       labelNode.setPosition(new Vec3(0, 70, 0));
       userNode.addChild(labelNode);
       userNode.name = item?.id;
+
+      if (colorMapping[item.color]) {
+        userNode.getChildByName("image").getComponent(Sprite).color =
+          colorMapping[item.color];
+      }
 
       const userCount = this.userListContainer.children.length;
       const row = Math.floor(userCount / 4);

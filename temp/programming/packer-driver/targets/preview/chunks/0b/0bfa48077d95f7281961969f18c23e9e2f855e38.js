@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Collider2D, Component, Contact2DType, director, instantiate, Label, Node, Prefab, Vec3, Tank, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _crd, ccclass, property, playCtrl;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Collider2D, Component, Contact2DType, director, instantiate, Label, Node, Prefab, Sprite, Vec3, Tank, colorMapping, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _crd, ccclass, property, playCtrl;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -11,6 +11,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
   function _reportPossibleCrUseOfTank(extras) {
     _reporterNs.report("Tank", "./tank", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfcolorMapping(extras) {
+    _reporterNs.report("colorMapping", "./utils", _context.meta, extras);
   }
 
   return {
@@ -29,16 +33,19 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       Label = _cc.Label;
       Node = _cc.Node;
       Prefab = _cc.Prefab;
+      Sprite = _cc.Sprite;
       Vec3 = _cc.Vec3;
     }, function (_unresolved_2) {
       Tank = _unresolved_2.Tank;
+    }, function (_unresolved_3) {
+      colorMapping = _unresolved_3.colorMapping;
     }],
     execute: function () {
       _crd = true;
 
       _cclegacy._RF.push({}, "5973eY0FFxCubqm1sykvwpR", "playCtrl", undefined);
 
-      __checkObsolete__(['_decorator', 'Collider2D', 'Component', 'Contact2DType', 'director', 'instantiate', 'IPhysics2DContact', 'Label', 'Node', 'Prefab', 'UIOpacity', 'Vec3']);
+      __checkObsolete__(['_decorator', 'Collider2D', 'Component', 'Contact2DType', 'director', 'instantiate', 'IPhysics2DContact', 'Label', 'Node', 'Prefab', 'Sprite', 'UIOpacity', 'Vec3']);
 
       ({
         ccclass,
@@ -90,33 +97,66 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
 
         onLoad() {
-          // create name
-          var labelNode = new Node();
-          var labelComponent = labelNode.addComponent(Label);
-          labelComponent.string = window.myTankId.slice(0, 3) + " (You)";
-          labelNode.setPosition(new Vec3(0, 70, 0));
-          this.tank.node.addChild(labelNode); // create HP
-
-          var hpNode = new Node();
-          var hpComponent = hpNode.addComponent(Label);
-          hpComponent.string = "HP: " + this.tank.hp;
-          hpNode.name = "HP";
-          hpNode.setPosition(new Vec3(0, 110, 0));
-          this.tank.node.addChild(hpNode); // render other tanks
-
-          window.userListArr.filter(item => (item == null ? void 0 : item.id) !== window.myTankId).forEach(data => {
+          window.userListArr // .filter((item: any) => item?.id !== (window as any).myTankId)
+          .forEach(data => {
             var _data$id;
+
+            // my tank
+            if (data.id === window.myTankId) {
+              // create name
+              var _labelNode = new Node();
+
+              var _labelComponent = _labelNode.addComponent(Label);
+
+              _labelComponent.string = data.id.slice(0, 3) + " (You)";
+
+              _labelNode.setPosition(new Vec3(0, 70, 0));
+
+              this.tank.node.addChild(_labelNode); // create HP
+
+              var _hpNode = new Node();
+
+              var _hpComponent = _hpNode.addComponent(Label);
+
+              _hpComponent.string = "HP: " + this.tank.hp;
+              _hpNode.name = "HP";
+
+              _hpNode.setPosition(new Vec3(0, 110, 0));
+
+              this.tank.node.addChild(_hpNode);
+
+              if ((_crd && colorMapping === void 0 ? (_reportPossibleCrUseOfcolorMapping({
+                error: Error()
+              }), colorMapping) : colorMapping)[data.color]) {
+                this.tank.node.getChildByName("image").getComponent(Sprite).color = (_crd && colorMapping === void 0 ? (_reportPossibleCrUseOfcolorMapping({
+                  error: Error()
+                }), colorMapping) : colorMapping)[data.color];
+              }
+
+              return;
+            } // other tank name
+
 
             var userNode = instantiate(this.tankPrefab);
             var labelNode = new Node();
             var labelComponent = labelNode.addComponent(Label);
             labelComponent.string = data == null || (_data$id = data.id) == null ? void 0 : _data$id.slice(0, 3);
-            labelNode.setPosition(new Vec3(0, 70, 0));
+            labelNode.setPosition(new Vec3(0, 70, 0)); // other tank HP
+
             var hpNode = new Node();
             var hpComponent = hpNode.addComponent(Label);
             hpComponent.string = "HP: " + this.tank.hp;
             hpNode.name = "HP";
-            hpNode.setPosition(new Vec3(0, 110, 0));
+            hpNode.setPosition(new Vec3(0, 110, 0)); // other tank color
+
+            if ((_crd && colorMapping === void 0 ? (_reportPossibleCrUseOfcolorMapping({
+              error: Error()
+            }), colorMapping) : colorMapping)[data.color]) {
+              userNode.getChildByName("image").getComponent(Sprite).color = (_crd && colorMapping === void 0 ? (_reportPossibleCrUseOfcolorMapping({
+                error: Error()
+              }), colorMapping) : colorMapping)[data.color];
+            }
+
             userNode.addChild(labelNode);
             userNode.addChild(hpNode);
             userNode.name = data == null ? void 0 : data.id;
@@ -162,10 +202,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
               var _userNode2 = this.userListContainer.getChildByName(data.id);
 
               if (_userNode2) {
-                var _hpNode = _userNode2.getChildByName("HP");
+                var hpNode = _userNode2.getChildByName("HP");
 
-                if (_hpNode) {
-                  _hpNode.getComponent(Label).string = "HP: " + data.HP;
+                if (hpNode) {
+                  hpNode.getComponent(Label).string = "HP: " + data.HP;
                 }
               }
 

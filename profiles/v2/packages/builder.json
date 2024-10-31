@@ -17,8 +17,8 @@
         "progress": 1,
         "state": "success",
         "stage": "build",
-        "message": "10-29-2024 14:56:44 build success in 4 s!",
-        "detailMessage": "Run build task(build-script) in child, see: chrome://inspect/#devices\r",
+        "message": "10-30-2024 14:15:31 build success in 7 s!",
+        "detailMessage": "Pack Images start, progress: 11%\r",
         "options": {
           "name": "TankWar",
           "server": "",
@@ -82,7 +82,7 @@
           "buildMode": "bundle",
           "logDest": "project://temp/builder/log/web-desktop10-29-2024 14-17.log"
         },
-        "time": "10-29-2024 14:56:39",
+        "time": "10-30-2024 14:15:24",
         "dirty": false
       }
     }

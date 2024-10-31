@@ -1,0 +1,1 @@
+{"version":3,"sources":["file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/constants/index.ts"],"names":["BE_URL","SOCKET_URL"],"mappings":";;;;;;;;;;;;;;wBAAaA,M,GAAS,2C;;4BACTC,U,GAAa,yC","sourcesContent":["export const BE_URL = \"https://a79b-27-72-104-163.ngrok-free.app\";\nexport const SOCKET_URL = \"wss://a79b-27-72-104-163.ngrok-free.app\";\n"]}

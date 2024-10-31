@@ -262,7 +262,7 @@
       "uuid": "a658d650-3f87-4e95-aba1-f1727ee4d60e"
     },
     "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/prefab": {
-      "time": 1729745505113.3171,
+      "time": 1730218662496.075,
       "uuid": "087b66d5-654e-4e22-baa5-f36670ed3657"
     },
     "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene": {
@@ -270,7 +270,7 @@
       "uuid": "2b1be193-6b0e-4fc3-a5c4-ba4a4fc37b57"
     },
     "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script": {
-      "time": 1730133678523.5176,
+      "time": 1730256509582.3179,
       "uuid": "c7d1e215-5cde-4fdf-94da-eaa4565c5f44"
     },
     "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/Store": {
@@ -282,11 +282,11 @@
       "uuid": "360d9f95-8cee-4253-81d8-19bcd8234332"
     },
     "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/Menu.ts": {
-      "time": 1730188584548.197,
+      "time": 1730272478362.1746,
       "uuid": "54c04689-95c9-47d8-ad87-9a133b912854"
     },
     "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/Store.ts": {
-      "time": 1730120910846.1616,
+      "time": 1730272432317.3186,
       "uuid": "53fa9369-877e-4846-8cd5-1e0ffba1bc05"
     },
     "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/bullet.ts": {
@@ -294,11 +294,11 @@
       "uuid": "d1a24626-b77c-42e1-8854-01eababc446d"
     },
     "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/playCtrl.ts": {
-      "time": 1730135402509.5537,
+      "time": 1730272382533.3657,
       "uuid": "5973e634-145c-42b9-baa6-d6cca4bf0a51"
     },
     "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/roomCtrl.ts": {
-      "time": 1730115079455.8462,
+      "time": 1730266243580.7334,
       "uuid": "6f8387bf-3160-40c2-b12f-16a547c2d410"
     },
     "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/tank.ts": {
@@ -401,7 +401,7 @@
       "uuid": "6e67a9bd-6f92-47b0-8ef3-751d843377dc"
     },
     "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/prefab/tankRoom.prefab": {
-      "time": 1730131515471.286,
+      "time": 1730262547266.198,
       "uuid": "bc46aefb-1a38-4990-8fe7-69819b474cc7"
     },
     "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene/gameOver.scene": {
@@ -413,7 +413,7 @@
       "uuid": "b8a0dfa3-da0c-479e-9693-e35545b2d983"
     },
     "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene/play.scene": {
-      "time": 1730136002864.9734,
+      "time": 1730272469981.0947,
       "uuid": "30ee7ad3-8950-417e-b1a5-5b09350ba30c"
     },
     "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene/room.scene": {
@@ -421,7 +421,7 @@
       "uuid": "4cd6cb70-53fb-4e62-ad36-c2ef7f28b844"
     },
     "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene/store.scene": {
-      "time": 1730121183397.0217,
+      "time": 1730258456222.527,
       "uuid": "e1f57ca3-27e0-44a6-b8f2-45ce684d0e6c"
     },
     "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/Store/active-bg.png": {
@@ -504,6 +504,62 @@
     },
     "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/images/Store/bg.webp.meta": {
       "time": 1730120976497.2136
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/apis.meta": {
+      "time": 1730196106598.3708
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/constants.meta": {
+      "time": 1730196106598.4917
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/apis/index.ts.meta": {
+      "time": 1730196106599.5564
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/constants/index.ts.meta": {
+      "time": 1730196106599.8013
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/apis": {
+      "time": 1730196106597.1013,
+      "uuid": "354769bc-1b1d-40f1-b006-84efa3f8db76"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/constants": {
+      "time": 1730196106597.311,
+      "uuid": "c88c532e-ab39-458a-8e84-1c33879dbbf7"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/apis/index.ts": {
+      "time": 1730259389805.0369,
+      "uuid": "ffae88cc-ebd5-4a31-a51f-98996d2ce588"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/constants/index.ts": {
+      "time": 1730255758712.2227,
+      "uuid": "e4b13952-64bd-4736-adfe-3fd86078a6c9"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/prefab/item.prefab.meta": {
+      "time": 1730218662467.029
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/prefab/item.prefab": {
+      "time": 1730221937457.3384,
+      "uuid": "df488bd1-964a-4f1b-8302-5d6f2bc7f731"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/prefab/active-item.prefab.meta": {
+      "time": 1730218662498.037
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/prefab/active-item.prefab": {
+      "time": 1730221989930.5288,
+      "uuid": "ad9c422d-dc00-4ae9-ae00-403c01dd3e86"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/utils.meta": {
+      "time": 1730256509592.9624
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/utils/index.ts.meta": {
+      "time": 1730256509594.712
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/utils": {
+      "time": 1730256509585.7656,
+      "uuid": "044ce7dd-94b4-4739-bb08-3a3e3074e002"
+    },
+    "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/utils/index.ts": {
+      "time": 1730256655974.4253,
+      "uuid": "7bad0335-559b-4fa9-9246-70251c5cb708"
     }
   },
   "missing": {

@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 5602.091832876205,
+      "mTimestamp": 5955.948207855225,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 6792.015415906906,
+      "mTimestamp": 17081513.503833055,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -700,7 +700,7 @@
           }
         },
         {
-          "value": "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/bullet.ts",
+          "value": "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/apis/index.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
@@ -709,49 +709,91 @@
             },
             "end": {
               "line": 5,
-              "column": 558
+              "column": 562
+            }
+          }
+        },
+        {
+          "value": "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/bullet.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 578
+            },
+            "end": {
+              "line": 5,
+              "column": 656
+            }
+          }
+        },
+        {
+          "value": "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/constants/index.ts",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 672
+            },
+            "end": {
+              "line": 5,
+              "column": 759
             }
           }
         },
         {
           "value": "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/playCtrl.ts",
-          "resolved": "__unresolved_5",
+          "resolved": "__unresolved_7",
           "loc": {
             "start": {
               "line": 5,
-              "column": 574
+              "column": 775
             },
             "end": {
               "line": 5,
-              "column": 654
+              "column": 855
             }
           }
         },
         {
           "value": "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/roomCtrl.ts",
-          "resolved": "__unresolved_6",
+          "resolved": "__unresolved_8",
           "loc": {
             "start": {
               "line": 5,
-              "column": 670
+              "column": 871
             },
             "end": {
               "line": 5,
-              "column": 750
+              "column": 951
             }
           }
         },
         {
           "value": "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/tank.ts",
-          "resolved": "__unresolved_7",
+          "resolved": "__unresolved_9",
           "loc": {
             "start": {
               "line": 5,
-              "column": 766
+              "column": 967
             },
             "end": {
               "line": 5,
-              "column": 842
+              "column": 1043
+            }
+          }
+        },
+        {
+          "value": "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/utils/index.ts",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1059
+            },
+            "end": {
+              "line": 5,
+              "column": 1142
             }
           }
         }
@@ -789,7 +831,21 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/apis/index.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/bullet.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/constants/index.ts"
           },
           "messages": []
         },
@@ -811,6 +867,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/tank.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/utils/index.ts"
           },
           "messages": []
         }
@@ -1109,7 +1172,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1730189549899,
+      "mTimestamp": 1730255397823,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -9760,11 +9823,15 @@
     },
     "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/Menu.ts": {
       "mTimestamp": {
-        "mtime": 1730188584548.197,
+        "mtime": 1730272478362.1746,
         "uuid": "54c04689-95c9-47d8-ad87-9a133b912854"
       },
       "chunkId": "0947285c42fe422ac2b47b126eb14d87cae3dcad",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -9783,6 +9850,34 @@
               "column": 73
             }
           }
+        },
+        {
+          "value": "./constants",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 27
+            },
+            "end": {
+              "line": 2,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "./apis",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 27
+            },
+            "end": {
+              "line": 3,
+              "column": 35
+            }
+          }
         }
       ],
       "type": "esm",
@@ -9790,7 +9885,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -9805,6 +9900,27 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/constants/index.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/apis/index.ts"
           },
           "messages": []
         }
@@ -9812,11 +9928,15 @@
     },
     "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/Store.ts": {
       "mTimestamp": {
-        "mtime": 1730120910846.1616,
+        "mtime": 1730272432317.3186,
         "uuid": "53fa9369-877e-4846-8cd5-1e0ffba1bc05"
       },
       "chunkId": "6940f96946c01fa204bdd758283e34d632abb23a",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -9827,12 +9947,40 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 9,
+              "line": 15,
               "column": 7
             },
             "end": {
-              "line": 9,
+              "line": 15,
               "column": 11
+            }
+          }
+        },
+        {
+          "value": "./apis",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 48
+            },
+            "end": {
+              "line": 16,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./utils",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 29
+            },
+            "end": {
+              "line": 17,
+              "column": 38
             }
           }
         }
@@ -9842,7 +9990,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -9857,6 +10005,27 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/apis/index.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/utils/index.ts"
           },
           "messages": []
         }
@@ -9916,7 +10085,7 @@
     },
     "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/playCtrl.ts": {
       "mTimestamp": {
-        "mtime": 1730135402509.5537,
+        "mtime": 1730272382533.3657,
         "uuid": "5973e634-145c-42b9-baa6-d6cca4bf0a51"
       },
       "chunkId": "0bfa48077d95f7281961969f18c23e9e2f855e38",
@@ -9935,11 +10104,11 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 14,
+              "line": 15,
               "column": 7
             },
             "end": {
-              "line": 14,
+              "line": 15,
               "column": 11
             }
           }
@@ -9949,12 +10118,26 @@
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 15,
+              "line": 16,
               "column": 21
             },
             "end": {
-              "line": 15,
+              "line": 16,
               "column": 29
+            }
+          }
+        },
+        {
+          "value": "./utils",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 29
+            },
+            "end": {
+              "line": 17,
+              "column": 38
             }
           }
         }
@@ -9993,6 +10176,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/tank.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/utils/index.ts"
           },
           "messages": []
         }
@@ -10052,10 +10242,170 @@
     },
     "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/roomCtrl.ts": {
       "mTimestamp": {
-        "mtime": 1730115079455.8462,
+        "mtime": 1730266243580.7334,
         "uuid": "6f8387bf-3160-40c2-b12f-16a547c2d410"
       },
       "chunkId": "115c792c14fa032717bd888f767f5d7006291098",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 7
+            },
+            "end": {
+              "line": 12,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "./utils",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 29
+            },
+            "end": {
+              "line": 13,
+              "column": 38
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/utils/index.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/constants/index.ts": {
+      "mTimestamp": {
+        "mtime": 1730255758712.2227,
+        "uuid": "e4b13952-64bd-4736-adfe-3fd86078a6c9"
+      },
+      "chunkId": "0a0352ace404586494d4daa1799aacd9203ff9df",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/apis/index.ts": {
+      "mTimestamp": {
+        "mtime": 1730259389805.0369,
+        "uuid": "ffae88cc-ebd5-4a31-a51f-98996d2ce588"
+      },
+      "chunkId": "d0e3b4a8128107723c8bbb95fab94a479b082d2f",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "../constants",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/constants/index.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/akai/Data/cocos/cocos-creator-tank-war/assets/script/utils/index.ts": {
+      "mTimestamp": {
+        "mtime": 1730256655974.4253,
+        "uuid": "7bad0335-559b-4fa9-9246-70251c5cb708"
+      },
+      "chunkId": "846f29517326087f5b2420caef2231d35aa018c0",
       "imports": [
         {
           "value": "cc"
@@ -10067,12 +10417,12 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 11,
-              "column": 7
+              "line": 1,
+              "column": 22
             },
             "end": {
-              "line": 11,
-              "column": 11
+              "line": 1,
+              "column": 26
             }
           }
         }

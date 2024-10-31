@@ -4,6 +4,9 @@
         "cpu": "Apple M1 Pro",
         "version": "Darwin Kernel Version 24.0.0: Tue Sep 24 23:39:07 PDT 2024; root:xnu-11215.1.12~1/RELEASE_ARM64_T6000"
     },
-    "sceneListMap": {},
+    "sceneListMap": {
+        "30ee7ad3-8950-417e-b1a5-5b09350ba30c": "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene/play.scene",
+        "e1f57ca3-27e0-44a6-b8f2-45ce684d0e6c": "/Users/akai/Data/cocos/cocos-creator-tank-war/assets/scene/store.scene"
+    },
     "deviceMd5": "5f004c650e0b156786707c654014ca13"
 }

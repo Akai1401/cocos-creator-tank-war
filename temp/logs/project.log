@@ -1,15 +1,14 @@
-10-29-2024 15:12:29 - log: Load engine in /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine
-10-29-2024 15:12:29 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
-10-29-2024 15:12:29 - log: Register native engine in /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/native
-10-29-2024 15:12:30 - log: Request namespace: device-list
-10-29-2024 15:12:36 - warn: failed to connect login server due to request timeout
-10-29-2024 15:12:36 - log: [Scene] meshopt wasm decoder initialized
-10-29-2024 15:12:36 - log: [Scene] [box2d]:box2d wasm lib loaded.
-10-29-2024 15:12:36 - log: [Scene] [bullet]:bullet wasm lib loaded.
-10-29-2024 15:12:37 - log: [Scene] [PHYSICS]: using builtin.
-10-29-2024 15:12:37 - log: [Scene] Cocos Creator v3.8.3
-10-29-2024 15:12:37 - info: [Scene] Forward render pipeline initialized.
-10-29-2024 15:12:37 - warn: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an array
+10-30-2024 09:29:57 - log: Load engine in /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine
+10-30-2024 09:29:57 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+10-30-2024 09:29:57 - log: Register native engine in /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+10-30-2024 09:29:58 - log: Request namespace: device-list
+10-30-2024 09:30:04 - log: [Scene] meshopt wasm decoder initialized
+10-30-2024 09:30:04 - log: [Scene] [box2d]:box2d wasm lib loaded.
+10-30-2024 09:30:04 - log: [Scene] [bullet]:bullet wasm lib loaded.
+10-30-2024 09:30:05 - log: [Scene] [PHYSICS]: using builtin.
+10-30-2024 09:30:05 - log: [Scene] Cocos Creator v3.8.3
+10-30-2024 09:30:05 - info: [Scene] Forward render pipeline initialized.
+10-30-2024 09:30:05 - warn: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an array
     at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
     at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
     at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
@@ -17,7 +16,7 @@
     at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
     at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
     at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
-10-29-2024 15:12:37 - warn: [Scene] The 'default' attribute of 'Menu.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Menu.audioSource' must be an array
+10-30-2024 09:30:05 - warn: [Scene] The 'default' attribute of 'Menu.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Menu.audioSource' must be an array
     at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
     at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
     at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
@@ -25,7 +24,7 @@
     at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
     at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
     at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
-10-29-2024 15:12:37 - warn: [Scene] The 'default' attribute of 'Store.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Store.audioSource' must be an array
+10-30-2024 09:30:05 - warn: [Scene] The 'default' attribute of 'Store.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Store.audioSource' must be an array
     at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
     at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
     at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
@@ -33,4 +32,1121 @@
     at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
     at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
     at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
-10-29-2024 15:12:37 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-30-2024 09:30:05 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-30-2024 09:32:22 - warn: failed to connect login server due to request timeout
+10-30-2024 09:32:24 - warn: [Assets] The 'default' attribute of 'GameOver.audioSource' must be an array[Assets] The 'default' attribute of 'GameOver.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 09:32:25 - warn: [Assets] The 'default' attribute of 'Menu.audioSource' must be an array[Assets] The 'default' attribute of 'Menu.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 09:32:25 - warn: [Assets] The 'default' attribute of 'Store.audioSource' must be an array[Assets] The 'default' attribute of 'Store.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 09:32:25 - warn: [Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+[Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+  
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"  
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:6:68)
+10-30-2024 09:32:28 - warn: [Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+[Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+  
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"  
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:6:68)
+10-30-2024 09:36:07 - warn: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 09:36:07 - warn: [Scene] The 'default' attribute of 'Menu.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Menu.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 09:36:07 - warn: [Scene] The 'default' attribute of 'Store.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Store.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 09:38:40 - warn: failed to connect login server due to request timeout
+10-30-2024 09:38:46 - warn: [Assets] The 'default' attribute of 'GameOver.audioSource' must be an array[Assets] The 'default' attribute of 'GameOver.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 09:38:46 - warn: [Assets] The 'default' attribute of 'Menu.audioSource' must be an array[Assets] The 'default' attribute of 'Menu.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 09:38:46 - warn: [Assets] The 'default' attribute of 'Store.audioSource' must be an array[Assets] The 'default' attribute of 'Store.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 09:38:46 - warn: [Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+[Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+  
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"  
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:6:68)
+10-30-2024 09:38:50 - warn: [Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+[Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+  
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"  
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:6:68)
+10-30-2024 09:43:26 - warn: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 09:43:26 - warn: [Scene] The 'default' attribute of 'Menu.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Menu.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 09:43:26 - warn: [Scene] The 'default' attribute of 'Store.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Store.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 09:48:29 - warn: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 09:48:29 - warn: [Scene] The 'default' attribute of 'Menu.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Menu.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 09:48:29 - warn: [Scene] The 'default' attribute of 'Store.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Store.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 09:52:38 - warn: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 09:52:38 - warn: [Scene] The 'default' attribute of 'Menu.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Menu.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 09:52:38 - warn: [Scene] The 'default' attribute of 'Store.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Store.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 10:00:55 - warn: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 10:00:55 - warn: [Scene] The 'default' attribute of 'Menu.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Menu.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 10:00:55 - warn: [Scene] The 'default' attribute of 'Store.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Store.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 10:20:51 - warn: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 10:20:51 - warn: [Scene] The 'default' attribute of 'Menu.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Menu.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 10:20:51 - warn: [Scene] The 'default' attribute of 'Store.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Store.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 10:32:36 - warn: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 10:32:36 - warn: [Scene] The 'default' attribute of 'Menu.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Menu.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 10:32:36 - warn: [Scene] The 'default' attribute of 'Store.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Store.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 10:36:30 - warn: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 10:36:30 - warn: [Scene] The 'default' attribute of 'Menu.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Menu.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 10:36:30 - warn: [Scene] The 'default' attribute of 'Store.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Store.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 10:37:21 - warn: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 10:37:21 - warn: [Scene] The 'default' attribute of 'Menu.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Menu.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 10:37:21 - warn: [Scene] The 'default' attribute of 'Store.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Store.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 10:38:56 - warn: failed to connect login server due to request timeout
+10-30-2024 10:39:00 - warn: [Assets] The 'default' attribute of 'GameOver.audioSource' must be an array[Assets] The 'default' attribute of 'GameOver.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 10:39:00 - warn: [Assets] The 'default' attribute of 'Menu.audioSource' must be an array[Assets] The 'default' attribute of 'Menu.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 10:39:00 - warn: [Assets] The 'default' attribute of 'Store.audioSource' must be an array[Assets] The 'default' attribute of 'Store.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 10:39:00 - warn: [Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+[Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+  
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"  
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:6:68)
+10-30-2024 10:39:04 - warn: [Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+[Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+  
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"  
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:6:68)
+10-30-2024 10:43:02 - warn: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 10:43:02 - warn: [Scene] The 'default' attribute of 'Menu.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Menu.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 10:43:02 - warn: [Scene] The 'default' attribute of 'Store.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Store.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 10:43:10 - warn: [Assets] The 'default' attribute of 'GameOver.audioSource' must be an array[Assets] The 'default' attribute of 'GameOver.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 10:43:10 - warn: [Assets] The 'default' attribute of 'Menu.audioSource' must be an array[Assets] The 'default' attribute of 'Menu.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 10:43:10 - warn: [Assets] The 'default' attribute of 'Store.audioSource' must be an array[Assets] The 'default' attribute of 'Store.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 10:43:10 - warn: [Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+[Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+  
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"  
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:6:68)
+10-30-2024 10:43:14 - warn: [Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+[Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+  
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"  
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:6:68)
+10-30-2024 11:02:29 - warn: failed to connect login server due to request timeout
+10-30-2024 11:02:33 - warn: [Assets] The 'default' attribute of 'GameOver.audioSource' must be an array[Assets] The 'default' attribute of 'GameOver.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 11:02:33 - warn: [Assets] The 'default' attribute of 'Menu.audioSource' must be an array[Assets] The 'default' attribute of 'Menu.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 11:02:33 - warn: [Assets] The 'default' attribute of 'Store.audioSource' must be an array[Assets] The 'default' attribute of 'Store.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 11:02:33 - warn: [Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+[Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+  
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"  
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:6:68)
+10-30-2024 11:02:36 - warn: [Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+[Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+  
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"  
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:6:68)
+10-30-2024 11:25:19 - warn: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 11:25:19 - warn: [Scene] The 'default' attribute of 'Menu.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Menu.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 11:25:19 - warn: [Scene] The 'default' attribute of 'Store.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Store.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 11:25:35 - warn: [Assets] The 'default' attribute of 'GameOver.audioSource' must be an array[Assets] The 'default' attribute of 'GameOver.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 11:25:35 - warn: [Assets] The 'default' attribute of 'Menu.audioSource' must be an array[Assets] The 'default' attribute of 'Menu.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 11:25:35 - warn: [Assets] The 'default' attribute of 'Store.audioSource' must be an array[Assets] The 'default' attribute of 'Store.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 11:25:35 - warn: [Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+[Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+  
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"  
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:6:68)
+10-30-2024 11:25:38 - warn: [Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+[Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+  
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"  
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:6:68)
+10-30-2024 11:34:08 - warn: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 11:34:08 - warn: [Scene] The 'default' attribute of 'Menu.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Menu.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 11:34:08 - warn: [Scene] The 'default' attribute of 'Store.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Store.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 11:34:35 - warn: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 11:34:35 - warn: [Scene] The 'default' attribute of 'Menu.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Menu.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 11:34:35 - warn: [Scene] The 'default' attribute of 'Store.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Store.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 11:35:16 - warn: failed to connect login server due to request timeout
+10-30-2024 11:35:16 - warn: [Assets] The 'default' attribute of 'GameOver.audioSource' must be an array[Assets] The 'default' attribute of 'GameOver.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 11:35:16 - warn: [Assets] The 'default' attribute of 'Menu.audioSource' must be an array[Assets] The 'default' attribute of 'Menu.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 11:35:16 - warn: [Assets] The 'default' attribute of 'Store.audioSource' must be an array[Assets] The 'default' attribute of 'Store.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 11:35:16 - warn: [Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+[Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+  
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"  
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:6:68)
+10-30-2024 11:35:20 - warn: [Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+[Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+  
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"  
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:6:68)
+10-30-2024 11:35:41 - warn: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 11:35:41 - warn: [Scene] The 'default' attribute of 'Menu.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Menu.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 11:35:41 - warn: [Scene] The 'default' attribute of 'Store.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Store.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 11:37:46 - warn: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 11:37:46 - warn: [Scene] The 'default' attribute of 'Menu.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Menu.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 11:37:46 - warn: [Scene] The 'default' attribute of 'Store.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Store.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 11:37:52 - warn: failed to connect login server due to request timeout
+10-30-2024 11:37:57 - warn: failed to connect login server due to request timeout
+10-30-2024 11:37:58 - warn: [Assets] The 'default' attribute of 'GameOver.audioSource' must be an array[Assets] The 'default' attribute of 'GameOver.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 11:37:58 - warn: [Assets] The 'default' attribute of 'Menu.audioSource' must be an array[Assets] The 'default' attribute of 'Menu.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 11:37:58 - warn: [Assets] The 'default' attribute of 'Store.audioSource' must be an array[Assets] The 'default' attribute of 'Store.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 11:37:58 - warn: [Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+[Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+  
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"  
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:6:68)
+10-30-2024 11:38:02 - warn: [Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+[Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+  
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"  
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:6:68)
+10-30-2024 13:35:52 - warn: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 13:35:52 - warn: [Scene] The 'default' attribute of 'Menu.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Menu.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 13:35:52 - warn: [Scene] The 'default' attribute of 'Store.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Store.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 13:36:09 - warn: failed to connect login server due to request timeout
+10-30-2024 13:36:14 - warn: failed to connect login server due to request timeout
+10-30-2024 13:36:14 - warn: [Assets] The 'default' attribute of 'GameOver.audioSource' must be an array[Assets] The 'default' attribute of 'GameOver.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 13:36:14 - warn: [Assets] The 'default' attribute of 'Menu.audioSource' must be an array[Assets] The 'default' attribute of 'Menu.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 13:36:14 - warn: [Assets] The 'default' attribute of 'Store.audioSource' must be an array[Assets] The 'default' attribute of 'Store.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 13:36:14 - warn: [Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+[Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+  
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"  
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:6:68)
+10-30-2024 13:36:18 - warn: [Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+[Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+  
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"  
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:6:68)
+10-30-2024 13:37:04 - warn: failed to connect login server... skipping login
+10-30-2024 14:13:07 - warn: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 14:13:07 - warn: [Scene] The 'default' attribute of 'Menu.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Menu.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 14:13:07 - warn: [Scene] The 'default' attribute of 'Store.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Store.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 14:14:21 - warn: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 14:14:21 - warn: [Scene] The 'default' attribute of 'Menu.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Menu.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 14:14:21 - warn: [Scene] The 'default' attribute of 'Store.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Store.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 14:14:39 - warn: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'GameOver.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 14:14:39 - warn: [Scene] The 'default' attribute of 'Menu.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Menu.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 14:14:39 - warn: [Scene] The 'default' attribute of 'Store.audioSource' must be an arrayError: [Scene] The 'default' attribute of 'Store.audioSource' must be an array
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)
+    at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)
+    at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+    at CCClass (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153183:5)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271631:21)
+10-30-2024 14:15:24 - warn: failed to connect login server due to request timeout
+10-30-2024 14:15:27 - warn: [Assets] The 'default' attribute of 'GameOver.audioSource' must be an array[Assets] The 'default' attribute of 'GameOver.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 14:15:27 - warn: [Assets] The 'default' attribute of 'Menu.audioSource' must be an array[Assets] The 'default' attribute of 'Menu.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 14:15:27 - warn: [Assets] The 'default' attribute of 'Store.audioSource' must be an array[Assets] The 'default' attribute of 'Store.audioSource' must be an array  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)  
+at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)  
+at parseType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273771:11)  
+at preprocessAttrs (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:273899:11)  
+at declareProperties (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:153154:7)
+10-30-2024 14:15:27 - warn: [Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+[Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+  
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"  
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:6:68)
+10-30-2024 14:15:31 - warn: [Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+[Assets] The Prefab used by node "New Node" in scene "play" is missing. Detailed information:
+Node path: "New Node"
+Asset url: "db://assets/scene/play"
+Asset file: "/Users/akai/Data/cocos/TankWar/assets/prefab/tank.prefab"
+Asset deleted time: "10/24/2024, 11:51:45 AM"
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"
+  
+Missing uuid: "8c538cfb-739d-4bd9-ae70-32270935c097"  
+  
+at Object.encode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at MissingObjectReporter.doReport (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-object-reporter.ccc:6:68)

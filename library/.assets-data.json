@@ -350,9 +350,8 @@
         "1e4321f8-4f82-4262-b8d7-d0e7abc45caa",
         "bd1bcaba-bd7d-4a71-b143-997c882383e4@f9941",
         "5f87f831-5946-4353-a2ad-1c478770f270@f9941",
-        "c6b5fd13-6a7f-4187-8716-1189e5d13c27@f9941",
-        "f7abb81e-3d98-4638-b33f-7248aa196adb@f9941",
-        "3bd8b8dd-d421-4908-ae1a-b40e952c24b6@f9941"
+        "ad9c422d-dc00-4ae9-ae00-403c01dd3e86",
+        "df488bd1-964a-4f1b-8302-5d6f2bc7f731"
       ],
       "dependScripts": [
         "53fa9369-877e-4846-8cd5-1e0ffba1bc05"
@@ -523,6 +522,57 @@
   },
   "ea07d149-5965-4dd8-90b3-1c5d0d6a331e": {
     "url": "db://assets/script/Controller.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "ffae88cc-ebd5-4a31-a51f-98996d2ce588": {
+    "url": "db://assets/script/apis/index.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "e4b13952-64bd-4736-adfe-3fd86078a6c9": {
+    "url": "db://assets/script/constants/index.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "354769bc-1b1d-40f1-b006-84efa3f8db76": {
+    "url": "db://assets/script/apis",
+    "value": {},
+    "versionCode": 1
+  },
+  "c88c532e-ab39-458a-8e84-1c33879dbbf7": {
+    "url": "db://assets/script/constants",
+    "value": {},
+    "versionCode": 1
+  },
+  "df488bd1-964a-4f1b-8302-5d6f2bc7f731": {
+    "url": "db://assets/prefab/item.prefab",
+    "value": {
+      "depends": [
+        "3bd8b8dd-d421-4908-ae1a-b40e952c24b6@f9941",
+        "c6b5fd13-6a7f-4187-8716-1189e5d13c27@f9941"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "ad9c422d-dc00-4ae9-ae00-403c01dd3e86": {
+    "url": "db://assets/prefab/active-item.prefab",
+    "value": {
+      "depends": [
+        "c6b5fd13-6a7f-4187-8716-1189e5d13c27@f9941"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "7bad0335-559b-4fa9-9246-70251c5cb708": {
+    "url": "db://assets/script/utils/index.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "044ce7dd-94b4-4739-bb08-3a3e3074e002": {
+    "url": "db://assets/script/utils",
     "value": {},
     "versionCode": 1
   }

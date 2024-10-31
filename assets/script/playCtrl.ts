@@ -9,10 +9,12 @@ import {
   Label,
   Node,
   Prefab,
+  Sprite,
   UIOpacity,
   Vec3,
 } from "cc";
 import { Tank } from "./tank";
+import { colorMapping } from "./utils";
 
 const { ccclass, property } = _decorator;
 
@@ -61,36 +63,49 @@ export class playCtrl extends Component {
   }
 
   onLoad() {
-    // create name
-    const labelNode = new Node();
-    const labelComponent = labelNode.addComponent(Label);
-    labelComponent.string = (window as any).myTankId.slice(0, 3) + " (You)";
-    labelNode.setPosition(new Vec3(0, 70, 0));
-    this.tank.node.addChild(labelNode);
-
-    // create HP
-    const hpNode = new Node();
-    const hpComponent = hpNode.addComponent(Label);
-    hpComponent.string = "HP: " + this.tank.hp;
-    hpNode.name = "HP";
-    hpNode.setPosition(new Vec3(0, 110, 0));
-    this.tank.node.addChild(hpNode);
-
-    // render other tanks
     (window as any).userListArr
-      .filter((item: any) => item?.id !== (window as any).myTankId)
+      // .filter((item: any) => item?.id !== (window as any).myTankId)
       .forEach((data: any) => {
+        // my tank
+        if (data.id === (window as any).myTankId) {
+          // create name
+          const labelNode = new Node();
+          const labelComponent = labelNode.addComponent(Label);
+          labelComponent.string = data.id.slice(0, 3) + " (You)";
+          labelNode.setPosition(new Vec3(0, 70, 0));
+          this.tank.node.addChild(labelNode);
+
+          // create HP
+          const hpNode = new Node();
+          const hpComponent = hpNode.addComponent(Label);
+          hpComponent.string = "HP: " + this.tank.hp;
+          hpNode.name = "HP";
+          hpNode.setPosition(new Vec3(0, 110, 0));
+          this.tank.node.addChild(hpNode);
+
+          if (colorMapping[data.color]) {
+            this.tank.node.getChildByName("image").getComponent(Sprite).color =
+              colorMapping[data.color];
+          }
+          return;
+        }
+        // other tank name
         const userNode = instantiate(this.tankPrefab);
         const labelNode = new Node();
         const labelComponent = labelNode.addComponent(Label);
         labelComponent.string = data?.id?.slice(0, 3);
         labelNode.setPosition(new Vec3(0, 70, 0));
-
+        // other tank HP
         const hpNode = new Node();
         const hpComponent = hpNode.addComponent(Label);
         hpComponent.string = "HP: " + this.tank.hp;
         hpNode.name = "HP";
         hpNode.setPosition(new Vec3(0, 110, 0));
+        // other tank color
+        if (colorMapping[data.color]) {
+          userNode.getChildByName("image").getComponent(Sprite).color =
+            colorMapping[data.color];
+        }
 
         userNode.addChild(labelNode);
         userNode.addChild(hpNode);
